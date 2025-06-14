@@ -94,7 +94,8 @@ Screen -S cysic
 cd $HOME && cd ~/cysic-verifier/ && bash start.sh
 ```
 ![image](https://github.com/user-attachments/assets/88c9feb0-6a99-49ea-9cc0-6c53c11f662c)
-
 - when the node starts you may get error logs.
 - it'll take sometime to properly synchronise so give it time.
+- The verifier may need some minutes to connect to the chain. When you see output like ```send heartbeat to server```, then the verifier is running successfully.
+- The verifier program will create mnemonic files for you. Your submitted address mnemonic file is in: ```~/.cysic/keys/``` folder, please keep it or you can not run the verifier program again.
 
