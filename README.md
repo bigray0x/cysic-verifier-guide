@@ -85,7 +85,7 @@ cd  ~/cysic-verifier  && ls -la
 - Create a screen session:
 
 ```
-Screen -S cysic
+screen -S cysic
 ```
 
 - Start the node
